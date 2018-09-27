@@ -29,7 +29,7 @@ const indexRouter = require('./routes/index')
 const timelineRouter = require('./routes/timeline')
 const commentsRouter = require('./routes/comment')
 
-app.use('/', indexRouter)
+app.use('/user', indexRouter)
 app.use('/timeline', timelineRouter)
 app.use('/comments', commentsRouter)
 

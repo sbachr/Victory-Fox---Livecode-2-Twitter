@@ -9,19 +9,4 @@ router.post('/signin', signin)
 router.get('/users', getAllUser)
 router.post('/user/:id', getOne)
 
-
-
-// router.post('/upload', upload.multer.single('image'), upload.sendUploadToGCS,
-//     (req, res) => {
-//         res.send({
-//             status: 200,
-//             message: 'Your file is successfully uploaded',
-//             link: req.file.cloudStoragePublicUrl
-//         })
-//     })
-
-// router.get('/', function (req, res, next) {
-//     res.send('Ok masuk')
-// })
-
 module.exports = router
